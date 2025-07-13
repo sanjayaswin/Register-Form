@@ -1,0 +1,171 @@
+* {
+  background-color: black;
+  color: beige;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.connect,.connect__one,.connect__two,.connect__three,.connect__four{
+  background-color: white;
+  display:inline-block ;
+}
+.connect{
+  width: 500px;
+  height: 500px;
+  border-radius: 30px;
+  margin-left: 400px;
+  margin-top: 75px;
+  text-align: center;
+  padding-top: 10px;
+  box-shadow:orange 0px 7px 29px 0px;
+  animation: ani 2.5s ease-in-out;
+}
+.connect__one{
+  font-size: 40px;
+}
+.contact-form {
+  display: flex;
+  flex-direction:column;
+  gap: 15px;
+  margin-top: 10px;
+  padding: 0 20px;
+  background-color: white;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid orange;
+  background-color:white;
+  color: black;
+  font-size: 16px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: orange;
+}
+
+.contact-form button {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+button{
+  transition-delay: 1s;
+}
+
+.contact-form input:hover,
+.contact-form textarea:hover{
+  border: 2px solid orange;
+} 
+.input1{
+  animation: app1 1s ease-in-out;
+}
+.input2{
+  animation: app2 1.5s ease-in-out;
+}
+.input5{
+  animation: app6 2s ease-in-out;
+}
+.input3{
+  animation: app3 2.5s ease-in-out;
+}
+.input4{
+  animation: app4 3s ease-in-out;
+}
+.button{
+  animation: app5 3s ease-in-out;
+}
+@keyframes app1 {
+  0% {
+    margin-left: 200px;
+  }
+
+  100% {
+    margin-left: 0px;
+  }
+}
+@keyframes app2 {
+  0% {
+    margin-left: 200px;
+  }
+
+  100% {
+    margin-left: 0px;
+  }
+}
+@keyframes app6 {
+  0% {
+    margin-left: 200px;
+  }
+
+  100% {
+    margin-left: 0px;
+  }
+}
+@keyframes app3 {
+  0% {
+    margin-left: 200px;
+  }
+
+  100% {
+    margin-left: 0px;
+  }
+}
+@keyframes app4 {
+  0% {
+    margin-left: 200px;
+  }
+
+  100% {
+    margin-left: 0px;
+  }
+}
+@keyframes app5 {
+  0%{
+    transform: scale(0.5);
+    box-shadow: none;
+  }
+
+  100%{
+    transform: scale(1) ;
+  }
+}
+@keyframes ani {
+  0%{
+    transform: scale(0.5);
+    box-shadow: none;
+  }
+50%{
+      transform: scale(1.2) ;
+
+}
+  100%{
+    transform: scale(1) ;
+  }
+}
+.Studentform td{
+    padding: 5px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 50px;
+    padding-right:30px ;
+    padding-left:30px ;
+    color: orange;
+}
+.Studentform{
+margin-top: 40px;
+margin-left: 26%;
+}
+.column{
+        border: solid orange 2px;
+}
+.do{
+  display: none;
+}
